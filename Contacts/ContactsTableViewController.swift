@@ -14,6 +14,19 @@ class ContactsTableViewController: UITableViewController {
  
     func toggleEdit() {
         tableView.setEditing(!tableView.isEditing, animated:true)
+        
+        /*
+        if (tableView.setEditing(!tableView.isEditing, animated:true) {
+        
+        } else {
+        
+            print ("Done")
+        
+        }
+        
+        return ()
+        */
+ 
     }
    
     override func viewDidLoad() {
